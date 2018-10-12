@@ -46,16 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frm_categorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_categorias.Designer.cs">
+      <DependentUpon>frm_categorias.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_menu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_menu.Designer.cs">
       <DependentUpon>frm_menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_produtos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_produtos.Designer.cs">
+      <DependentUpon>frm_produtos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_categorias.resx">
+      <DependentUpon>frm_categorias.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_menu.resx">
       <DependentUpon>frm_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_produtos.resx">
+      <DependentUpon>frm_produtos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -90,7 +108,13 @@
     <None Include="images\vendas2.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\icones\cadastro produtos 40 x 40.png" />
+    <None Include="images\cadastro produtos 40 x 40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\fundo login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\faturas 40x40.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
