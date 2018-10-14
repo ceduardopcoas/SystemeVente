@@ -34,10 +34,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.cb_categoria = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btn_novo = new System.Windows.Forms.Button();
+            this.btn_cadastrar = new System.Windows.Forms.Button();
+            this.btn_excluir = new System.Windows.Forms.Button();
+            this.btn_cancelar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -91,41 +91,41 @@
             this.cb_categoria.Size = new System.Drawing.Size(121, 24);
             this.cb_categoria.TabIndex = 5;
             // 
-            // button1
+            // btn_novo
             // 
-            this.button1.Location = new System.Drawing.Point(98, 92);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 25);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Novo";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_novo.Location = new System.Drawing.Point(98, 92);
+            this.btn_novo.Name = "btn_novo";
+            this.btn_novo.Size = new System.Drawing.Size(90, 25);
+            this.btn_novo.TabIndex = 6;
+            this.btn_novo.Text = "Novo";
+            this.btn_novo.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btn_cadastrar
             // 
-            this.button2.Location = new System.Drawing.Point(232, 92);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 25);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Cadastrar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_cadastrar.Location = new System.Drawing.Point(232, 92);
+            this.btn_cadastrar.Name = "btn_cadastrar";
+            this.btn_cadastrar.Size = new System.Drawing.Size(90, 25);
+            this.btn_cadastrar.TabIndex = 7;
+            this.btn_cadastrar.Text = "Cadastrar";
+            this.btn_cadastrar.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btn_excluir
             // 
-            this.button3.Location = new System.Drawing.Point(368, 92);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(90, 25);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Excluir";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn_excluir.Location = new System.Drawing.Point(368, 92);
+            this.btn_excluir.Name = "btn_excluir";
+            this.btn_excluir.Size = new System.Drawing.Size(90, 25);
+            this.btn_excluir.TabIndex = 8;
+            this.btn_excluir.Text = "Excluir";
+            this.btn_excluir.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btn_cancelar
             // 
-            this.button4.Location = new System.Drawing.Point(508, 92);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(90, 25);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "Cancelar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_cancelar.Location = new System.Drawing.Point(508, 92);
+            this.btn_cancelar.Name = "btn_cancelar";
+            this.btn_cancelar.Size = new System.Drawing.Size(90, 25);
+            this.btn_cancelar.TabIndex = 9;
+            this.btn_cancelar.Text = "Cancelar";
+            this.btn_cancelar.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -143,10 +143,10 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(672, 325);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_cancelar);
+            this.Controls.Add(this.btn_excluir);
+            this.Controls.Add(this.btn_cadastrar);
+            this.Controls.Add(this.btn_novo);
             this.Controls.Add(this.cb_categoria);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txt_valor);
@@ -170,10 +170,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cb_categoria;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btn_novo;
+        private System.Windows.Forms.Button btn_cadastrar;
+        private System.Windows.Forms.Button btn_excluir;
+        private System.Windows.Forms.Button btn_cancelar;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
